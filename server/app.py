@@ -22,7 +22,8 @@ def show_session(key):
     }), 200)
 
     response.set_cookie('mouse', 'Cookie')
-
+    response.set_cookie("username", "smuigai")
+    
     return response
 
 if __name__ == '__main__':
